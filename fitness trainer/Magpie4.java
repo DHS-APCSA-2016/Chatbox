@@ -74,6 +74,34 @@ public class Magpie4
         {
             response = "Let's step up the intensity!";
         }
+         else if (findKeyword(statement, "Sweat", 0) >= 0)
+        {
+            response = "Sweat is just fat crying!";
+        }
+         else if (findKeyword(statement, "Stronger", 0) >= 0)
+        {
+            response = "Be Stronger than your excuses!";
+        }
+         else if (findKeyword(statement, "Doctor", 0) >= 0)
+        {
+            response = "An apple a day keeps the doctor away.";
+        }           
+          else if (findKeyword(statement, "Just", 0) >= 0)
+        {
+            response = "Just Do It.";
+        }
+         else if (findKeyword(statement, "Running", 0) >= 0)
+        {
+            response = "Start running today.";
+        }
+         else if (findKeyword(statement, "Smile", 0) >= 0)
+        {
+            response = "Sweat, smile, and repeat.";
+        }
+         else if (findKeyword(statement, "Clear", 0) >= 0)
+        {
+            response = "Clear your mind, close your eyes and deep breath.";
+        }
         else
         {
             response = getRandomResponse();
