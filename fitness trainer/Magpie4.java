@@ -55,7 +55,7 @@ public class Magpie4
         }
         else if (findKeyword(statement, "endurance", 0) >= 0)
         {
-            response = "Let's work on your endurance. Do some milk jogging and slowly increase your speed and length each time.";
+            response = "Let's work on your endurance. Do some mild jogging and slowly increase your speed and length each time.";
         }
         else if (findKeyword(statement, "strength", 0) >= 0)
         {
