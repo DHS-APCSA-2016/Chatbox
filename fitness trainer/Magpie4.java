@@ -102,6 +102,14 @@ public class Magpie4
         {
             response = "Clear your mind, close your eyes and deep breath.";
         }
+         else if (findKeyword(statement, "Thighs", 0) >= 0)
+        {
+            response = "Time to firm up your thighs and back muscles.";
+        }
+         else if (findKeyword(statement, "Stretching", 0) >= 0)
+        {
+            response = "Stretching your spine will help stimulate your body.";
+        }
         else
         {
             response = getRandomResponse();
