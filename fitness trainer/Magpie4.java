@@ -110,6 +110,70 @@ public class Magpie4
         {
             response = "Stretching your spine will help stimulate your body.";
         }
+         else if (findKeyword(statement, "Breathing", 0) >= 0)
+        {
+            response = "How about some deep breathing?";
+        }
+         else if (findKeyword(statement, "Exerting", 0) >= 0)
+        {
+            response = "When exerting yourself, remember to keep breathing.";
+        }
+         else if (findKeyword(statement, "Firm", 0) >= 0)
+        {
+            response = "Firm up those abs!";
+        }
+         else if (findKeyword(statement, "Posture", 0) >= 0)
+        {
+            response = "Good posture begins with a strong base.";
+        }
+         else if (findKeyword(statement, "Support", 0) >= 0)
+        {
+            response = "Your lower body is key for support.";
+        }
+         else if (findKeyword(statement, "Abs", 0) >= 0)
+        {
+            response = "Work toward strong, firm abs.";
+        }
+         else if (findKeyword(statement, "Tummy", 0) >= 0)
+        {
+            response = "Work hard to tone that tummy.";
+        }
+         else if (findKeyword(statement, "Key", 0) >= 0)
+        {
+            response = "The key is to focus on your balance.";
+        }
+         else if (findKeyword(statement, "Legs", 0) >= 0)
+        {
+            response = "Let's stretch our legs.";
+        }
+         else if (findKeyword(statement, "Shoulders", 0) >= 0)
+        {
+            response = "Stretch those shoulders.";
+        }
+         else if (findKeyword(statement, "Fired", 0) >= 0)
+        {
+            response = "Let's get fired up!";
+        }
+         else if (findKeyword(statement, "Together", 0) >= 0)
+        {
+            response = "Now, let's try it together!";
+        }
+        else if (findKeyword(statement, "Balance", 0) >= 0)
+        {
+            response = "Let's work on your balance!";
+        }
+         else if (findKeyword(statement, "Intensity", 0) >= 0)
+        {
+            response = "Let's step up the intensity!";
+        }
+         else if (findKeyword(statement, "Burn", 0) >= 0)
+        {
+            response = "That's it, feel the burn";
+        }
+         else if (findKeyword(statement, "High", 0) >= 0)
+        {
+            response = "High energy, move that body!";
+        }
         else
         {
             response = getRandomResponse();
